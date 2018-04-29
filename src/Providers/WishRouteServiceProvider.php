@@ -15,7 +15,8 @@ class WishRouteServiceProvider extends RouteServiceProvider
 	 */
 	public function map(Router $router)
 	{
-		$router->get('hello', 'Wish\Controllers\ContentController@sayHello');
+		$router->get('wishhello', 'Wish\Controllers\ContentController@sayHello');
+		$router->get('hellotest', 'Wish\Controllers\ContentController@sayHello');
 	}
 
 }
