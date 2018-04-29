@@ -17,6 +17,7 @@ class WishRouteServiceProvider extends RouteServiceProvider
 	{
 		$router->get('wishhello', 'Wish\Controllers\ContentController@sayHello');
 		$router->get('hellotest', 'Wish\Controllers\ContentController@sayHello');
+		$router->get('hello', 'Wish\Controllers\ContentController@sayHello');
 	}
 
 }
