@@ -6,6 +6,7 @@
       "type":"template",
       "serviceProvider":"Wish\\Providers\\WishServiceProvider",
       "dependencies" : {
-            "guzzlehttp/guzzle": "6.2.*"
+            "guzzlehttp/guzzle": "6.2.*",
+            "wish/php-sdk": "*",
       }
 }
