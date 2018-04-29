@@ -35,7 +35,7 @@ class ContentController extends Controller
     	{
 		$sofortRequestParams['id'] = '123';
 		$paymentResult = $this->libCall->call('Wish::getConnection', ['packagist_query' => 'plentymarkets']);
-		$this->getLogger(__METHOD__)->error('Wish::LIBCALL', $paymentResult);
+		$this->getLogger(__METHOD__)->error('Wish::LIBCALLLLLL', $paymentResult);
 		$itemColumns = [
 			'itemDescription' => [				
 				'name1',
